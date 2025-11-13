@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Find Waldo</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <h1>Find Waldo</h1>
+        <div class="scoreboard">
+          <div id="timer">00:00</div>
+          <button id="startBtn" class="btn small">Start Game</button>
+          <button id="resetBtn" class="btn small">Restart</button>
+        </div>
+      </header>
+
+      <section class="game-area">
+        <div class="image-wrap">
+          <img id="scene" src="/images/Waldo.jpg" />
+          <div id="markers" class="markers"></div>
+        </div>
+      </section>
+
+      <footer class="footer">Built By Sai Charan Kottapally — Find Waldo Game</footer>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
